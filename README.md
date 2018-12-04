@@ -1,7 +1,7 @@
 # Quora insincere questions identification with Multi-ratio sampling, LSTM and Capsules
 An attempt to tackle the [Quora Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification) competition. Data is available [here](https://www.kaggle.com/c/quora-insincere-questions-classification/data). 
 
-All the relevant code of the project is in the jupyter notebook file [quora_project.ipynb](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/project_quora.ipynb). The file is self-contained, however, you do need to prepare the python environment and install required dependencies as described below. The file has 
+All the relevant code of the project is in the jupyter notebook file [Iqbal_Asif_project_quora.ipynb](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/Iqbal_Asif_project_quora.ipynb). The file is self-contained, however, you do need to prepare the python environment and install required dependencies as described below. The file has 
 
 ## Setup
 I have personally used the [Anaconda](https://www.anaconda.com) distribution for downloading all required packages and creating my virtual environment for this. You can use `pip` for your purposes. For a proper execution of my code, Python version `3.6.6` is needed. Ideally any version above `3.6.6` should also work, but since I am using `Keras` with `Tensorflow` backend and `Tensorflow` seems to have some issues with Python `3.7`, I have decided to stick to version `3.6.6`.
