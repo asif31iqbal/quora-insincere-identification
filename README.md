@@ -1,4 +1,5 @@
 # Quora insincere questions identification with Multi-ratio sampling, LSTM and Capsules
+An attempt to tackle the [Quora Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification) competition. Data is available [here](https://www.kaggle.com/c/quora-insincere-questions-classification/data). 
 
 All the relevant code of the project is in the jupyter notebook file [quora_project.ipynb](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/project_quora.ipynb). The file is self-contained, however, you do need to prepare the python environment and install required dependencies as described below. The file has 
 
