@@ -1,5 +1,7 @@
 # Quora insincere questions identification with Multi-ratio sampling, LSTM and Capsules
 
+All the relevant code of the project is in the jupyter notebook file [quora_project.ipynb](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/project_quora.ipynb). The file is self-contained, however, you do need to prepare the python environment and install required dependencies as described below.
+
 ## Setup
 I have personally used the [Anaconda](https://www.anaconda.com) distribution for downloading all required packages and creating my virtual environment for this. You can use `pip` for your purposes. For a proper execution of my code, Python version `3.6.6` is needed. Ideally any version above `3.6.6` should also work, but since I am using `Keras` with `Tensorflow` backend and `Tensorflow` seems to have some issues with Python `3.7`, I have decided to stick to version `3.6.6`.
 
@@ -35,6 +37,6 @@ conda install jupyter
 - Download the Kaggle competitions files by invoking `kaggle competitions download quora-insincere-questions-classification`
 - For our purposes, we only need 3 files out of the downloaded files. Unzip the files and copy `train.csv`, `test.csv` and `glove.840B.300d.txt`. Copy these 3 files right under the `data` directory.
 
-That's it. You are all set. At this point just run `jupyter notebook`, open the `quora_project.ipynb` file and run step by step or whatever way you want.
+That's it!! You are all set. At this point just run `jupyter notebook`, open the `quora_project.ipynb` file and run step by step or whatever way you want.
 
 
