@@ -26,7 +26,7 @@ conda install jupyter
 ```
 
 ### Download the data
-- Clone this git repository
+- Clone the git repository located at [https://github.com/asif31iqbal/quora-insincere-identification](https://github.com/asif31iqbal/quora-insincere-identification). You can close using ssh: `git clone git@github.com:asif31iqbal/quora-insincere-identification.git`
 - `cd` to the directory of the repository
 - Install Kaggle API `pip install kaggle --upgrade`
 - Assuming you have a Kaggle account, follow the commnads [here](https://github.com/Kaggle/kaggle-api) regarding **API Credentials** so that you are able to invoke the kaggle API methods. 
