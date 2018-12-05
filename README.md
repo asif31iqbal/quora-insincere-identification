@@ -36,8 +36,23 @@ conda install jupyter
 - Create data directory `mkdir data`
 - `cd data`
 - Download the Kaggle competitions files by invoking `kaggle competitions download quora-insincere-questions-classification`
-- For our purposes, we only need 3 files out of the downloaded files. Unzip the files and copy `train.csv`, `test.csv` and `glove.840B.300d.txt`. Copy these 3 files right under the `data` directory.
+- For our purposes, we only need 3 files out of the downloaded files. Unzip the files and copy `train.csv`, `test.csv` and `glove.840B.300d.txt`. Copy these 3 files right under the `data` directory. Feel free to delete other files that got extracted from the zip file.
 
-That's it!! You are all set. At this point just run `jupyter notebook`, open the `quora_project.ipynb` file and run step by step or whatever way you want.
+At this point the directory structure should looks like:
+
+```
+your_root_directory_where_you_cloned_the_repo
+|
+|-- Iqbal_Asif_project_quora.ipynb
+|-- report.pdf
+|-- data
+    |
+    |-- train.csv
+    |-- test.csv
+    |-- glove.840B.300d.txt
+
+```
+
+That's it!! You are all set. At this point just run `jupyter notebook`, open the [Iqbal_Asif_project_quora.ipynb](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/Iqbal_Asif_project_quora.ipynb) file and run step by step or whatever way you want. The notebook file has short embedded guidelines of how everything is working together. Details of the concept and implementation can be found in [report.pdf](https://github.com/asif31iqbal/quora-insincere-identification/blob/master/report.pdf). 
 
 
